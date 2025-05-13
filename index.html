@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+<link href="./dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#0A0F22] text-white flex justify-center items-center h-screen">
+    <div class="space-y-6">
+    <!-- Balance -->
+    <div>
+        <p class="text-[25px]">Your balance</p>
+        <p class="text-[30px] font-semibold flex gap-[10px] items-center">
+        <img class="w-[45px] h-[45px]" src="img/icons8-dollar-coin-48.png" alt="V coin">
+        $3,284.09
+        </p>
+        <button class="bg-blue-500 hover:bg-blue-600 mt-[15px] py-[10px] px-[120px] rounded-md">
+        + Buy credits
+        </button>
+    </div>
+
+
+        <!-- Payment cards -->
+    <div>
+        <p class="flex justify-between items-center text-[18px] font-medium mt-[50px]">Payment cards<span class="text-blue-600 hover:text-blue-700 cursor-pointer">+ Add card</span></p>
+    </div>
+
+
+        <!-- Visa Card -->
+    <div class="bg-[#1B213A] py-1.5 px-5 rounded-md flex items-center justify-between">
+        <div class="flex items-center gap-3">
+        <img src="img/visa.svg" class="w-[60px] h-[60px]" alt="Visa">
+        <div>
+            <p class="text-sm">Domen Kralj 
+            <span class="ml-1 text-xs bg-gray-200 text-gray-800 px-2 py-0.5 rounded-full">Primary</span>
+            </p>
+            <p class="text-xs text-gray-400">**** 6775</p>
+        </div>
+        </div>
+        <span class="text-gray-400">&gt;</span>
+    </div>
+
+        <!-- Master Card -->
+    <div class="bg-[#1B213A] py-1.5 px-5 rounded-md flex items-center justify-between">
+        <div class="flex items-center gap-3">
+        <img src="img/master.svg" class="w-[60px] h-[60px]" alt="Visa">
+        <div>
+            <p class="text-sm">Domen Kralj 
+            </p>
+            <p class="text-xs text-gray-400">**** 8424</p>
+        </div>
+        </div>
+        <span class="text-gray-400">&gt;</span>
+    </div>
+
+        <!-- Security -->
+    <div class="bg-[#2F3B44] py-2 px-6 rounded-md flex justify-center items-center">
+        <p>We are compliant with the payment card <br>industry security standard.</p>
+    </div>
+</div>
+</body>
