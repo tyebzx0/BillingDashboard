@@ -422,6 +422,9 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
   .py-\[10px\] {
     padding-block: 10px;
   }
@@ -493,6 +496,11 @@
       @media (hover: hover) {
         color: var(--color-blue-700);
       }
+    }
+  }
+  .md\:px-\[120px\] {
+    @media (width >= 48rem) {
+      padding-inline: 120px;
     }
   }
 }
