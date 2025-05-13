@@ -18,6 +18,6 @@ You can integrate this component into any web app that requires user billing man
 
 <div class="demo-link">
     <a href="https://tyebzx0.github.io/BillingDashboard/" class="demo-button" target="_blank">
-        <i class="fas fa-play-circle"></i> Check it here!
+        🚀 Check it here!
     </a>
 </div>
